@@ -8,6 +8,7 @@ const forecast = require('../src/utils/forecast')
 // Firing Up Express Server
 const app   = express()
 const port  = process.env.PORT || 3000
+
 // Setting public Directory
 const publicPath = path.join(__dirname,'../public')
 const viewsPath = path.join(__dirname, '../templates/views')
