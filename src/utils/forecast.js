@@ -15,7 +15,7 @@ const getForeCast = (long, lat, callback) =>{
                 temperature:body.currently.temperature,    
                 chanceToRain:body.currently.precipProbability,
                 tempHigh:body.daily.data[0].temperatureHigh,
-                tempHigh:body.daily.data[0].temperatureLow,
+                tempLow:body.daily.data[0].temperatureLow,
 
             })
         }
